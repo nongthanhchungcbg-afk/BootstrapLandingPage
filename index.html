@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Landing page responsive được xây dựng với Bootstrap 5.">
+    <title>Brightpath | Digital Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#home"><span class="brand-mark">B</span>brightpath<span class="brand-period">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Mở hoặc đóng menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#stories">Our work</a></li>
+                    <li class="nav-item"><a class="btn btn-dark rounded-pill px-3 ms-lg-2" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero" id="home">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <p class="eyebrow"><span></span> YOUR NEXT CHAPTER STARTS HERE</p>
+                        <h1>Small business.<br><span>Big bright ideas.</span></h1>
+                        <p class="hero-copy">We help ambitious teams find their voice, build their website, and turn a great idea into their next big thing.</p>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <a class="btn btn-accent rounded-pill px-4 py-2" href="#services">Explore what we do <span aria-hidden="true">→</span></a>
+                            <a class="text-link" href="#stories">See our work <span aria-hidden="true">↗</span></a>
+                        </div>
+                        <div class="social-proof"><div class="avatar-stack"><span>A</span><span>M</span><span>L</span></div><p><strong>Good people, good work.</strong><br>Trusted by 120+ growing teams</p></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-visual" aria-label="Decorative abstract sunrise and landscape illustration">
+                            <div class="visual-sun"></div><div class="visual-arc"></div><div class="visual-hill hill-one"></div><div class="visual-hill hill-two"></div>
+                            <div class="visual-label"><span>THE BIG PICTURE</span><strong>GOOD THINGS<br>TAKE SHAPE.</strong></div>
+                            <span class="visual-star star-one">✳</span><span class="visual-star star-two">✳</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="services section-pad" id="services">
+            <div class="container">
+                <div class="section-head row align-items-end g-3">
+                    <div class="col-md-7"><p class="eyebrow">A FEW THINGS WE DO WELL</p><h2>Good ideas deserve<br><span>good design.</span></h2></div>
+                    <div class="col-md-5"><p class="section-copy">From the first sketch to the final launch, we bring thoughtful strategy and craft to every step.</p></div>
+                </div>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-4"><article class="service-card h-100"><span class="service-icon icon-peach">✳</span><p class="service-number">01 / STRATEGY</p><h3>Find your focus.</h3><p>Clear positioning and a story your right people remember.</p><a href="#contact" aria-label="Contact us about strategy">↗</a></article></div>
+                    <div class="col-md-4"><article class="service-card h-100"><span class="service-icon icon-green">◒</span><p class="service-number">02 / DESIGN</p><h3>Look the part.</h3><p>A distinctive visual identity, made to feel like you.</p><a href="#contact" aria-label="Contact us about design">↗</a></article></div>
+                    <div class="col-md-4"><article class="service-card h-100"><span class="service-icon icon-blue">⌘</span><p class="service-number">03 / DIGITAL</p><h3>Make it happen.</h3><p>Fast, friendly websites that turn good visits into great leads.</p><a href="#contact" aria-label="Contact us about digital services">↗</a></article></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work" id="stories">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-7"><p class="eyebrow">A LITTLE PROOF</p><h2>“They made the hard<br>stuff feel <span>easy.</span>”</h2><p class="work-copy">A fresh brand and a new online home helped our little neighborhood bakery meet a whole lot more of its neighbors.</p><p class="client-name"><strong>Jamie Nguyen</strong><br>Founder, Sunday Oven</p></div>
+                    <div class="col-md-5"><div class="work-art"><span>SO</span><div class="work-circle"></div><p>SUNDAY<br>OVEN</p><small>BAKED WITH HEART</small></div></div>
+                </div>
+            </div>
+        </section>
+        <section class="cta text-center" id="contact"><div class="container"><p class="eyebrow justify-content-center">GOT A GOOD THING GOING?</p><h2>Let’s help it <span>grow.</span></h2><a class="btn btn-accent rounded-pill px-4 py-2 mt-2" href="mailto:hello@brightpath.studio">Tell us what you’re dreaming up <span aria-hidden="true">→</span></a></div></section>
+    </main>
+
+    <footer class="footer"><div class="container d-flex flex-column flex-sm-row justify-content-between gap-2"><span class="footer-brand">brightpath<span>.</span></span><span>Good things grow together.</span><span>© 2026 BRIGHTPATH STUDIO</span></div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
